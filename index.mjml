@@ -27,27 +27,30 @@
         }
         </mj-style>
     </mj-head>
-  <mj-body background-color="white" width = "400px" >
-   
-
-    <mj-section padding="0" background-color = "#333333">
-      <mj-column  border = "7px solid #333333" border-radius= "10px" width="380px"  background-color = "white">
-        <mj-image width= "50px" padding = "30px 10px 0 10px " src = "https://i.ibb.co/y8fjhNZ/dogo-logo.png"  alt="logo" />
-        <mj-text align="center" color="#333333" font-size = "15px" font-family="brown-pro-bold, Helvetica"><h1>We’re sorry you’d be leaving us. </h1></mj-text>
-        <mj-text  color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Hi John, </p></mj-text>
-        <mj-text  padding= "1px 20px 40px 20px" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px">You’ve decided it’s time to leave the community and we’ve cancelled your membership as requested which is effective from <p>Monday April 5th, 2022. </p>It wouldn’t be the same without you and we’d love to have you back. If you decide to join us again, simply download the app and resubscribe.
- </mj-text>
-        <mj-button background-color="darkgreen" border-radius="4px" inner-padding="0 10px" height="50px" width="160px" font-size="18px" color="#ffffff">DOWNLOAD </mj-button>
-      </mj-column>
-      <mj-column width= "400px"> 
-      <mj-text   align = "center" padding = "30px 50px 10px 50px" font-family = "sans-serif" font-size = "11px" font-weight = "400" line-height = "16px"  color= "grey">
-      You are receiving this email advertisement because you registered with DOGO. (2, Television Centre, 101 Wood Lane, London) and agreed to receive emails from us regarding new features, events and updates.
-      </mj-text>
-      <mj-text align = "center"  padding = "10px 20px 30px 20px" font-family = "sans-serif" font-size = "11px" font-weight = "400" line-height = "16px"  color= "grey">
-        &copy; DOGO., All Rights Reserved.
-      </mj-text>
-      </mj-column>
+  <mj-body background-color="black" width = "400px" >
+    <mj-section padding="0" background-color = "white" border = "2px solid black">
+    <mj-column width = "400px"> 
+     <mj-image width= "50px"   align = "center" src = "https://i.ibb.co/y8fjhNZ/dogo-logo.png"  alt="logo" />
+    </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column width = "400px">
+    <mj-text color = "white">
+    Hi John, 
+    </mj-text>
+     <mj-text color = "white" line-height = "20px">
+     You've successfully subscribed to a montly $5 subscription. <br>
+     Thanks for your donating towards saving a life in Africa. 
+    </mj-text>
+    <mj-text color = "white">
+     DOGO 
+    </mj-text>
+   <mj-divider width = "300px"/>
+    
+    
+    </mj-column>
+    </mj-section>
+      
     
   </mj-body>
 </mjml>
