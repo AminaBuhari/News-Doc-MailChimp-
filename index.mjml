@@ -13,6 +13,9 @@
             inner-padding: 10px;
             min-width: 160px;
         }
+        p {
+          font-weight : 700 !important;
+        }
 
         p {
             margin: 0;
@@ -24,43 +27,29 @@
         }
         </mj-style>
     </mj-head>
-  <mj-body background-color="#333333" width = "1000px">
-    <mj-raw>
-      <!-- Company Header -->
-    </mj-raw>
-    <mj-section background-color="#f0f0f0">
-      <mj-column>
-        <mj-text font-family="Proxima, Helvetica"  font-weight ="400" font-size="16px" align="center" color="#666666" line-height="24px" >Not loading? <a href="#">View Online</a></mj-text>
+  <mj-body background-color="white" width = "400px" >
+   
+
+    <mj-section padding="0" background-color = "#333333">
+      <mj-column  border = "7px solid #333333" border-radius= "10px" width="380px"  background-color = "white">
+        <mj-image width= "50px" padding = "30px 10px 0 10px " src = "https://i.ibb.co/y8fjhNZ/dogo-logo.png"  alt="logo" />
+        <mj-text align="center" color="#333333" font-size = "15px" font-family="brown-pro-bold, Helvetica"><h1>We’re sorry you’d be leaving us. </h1></mj-text>
+        <mj-text  color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Hi John, </p></mj-text>
+        <mj-text  padding= "1px 20px 40px 20px" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px">You’ve decided it’s time to leave the community and we’ve cancelled your membership as requested which is effective from <p>Monday April 5th, 2022. </p>It wouldn’t be the same without you and we’d love to have you back. If you decide to join us again, simply download the app and resubscribe.
+ </mj-text>
+        <mj-button background-color="darkgreen" border-radius="4px" inner-padding="0 10px" height="50px" width="160px" font-size="18px" color="#ffffff">DOWNLOAD </mj-button>
+      </mj-column>
+      <mj-column width= "400px"> 
+      <mj-text   align = "center" padding = "30px 50px 10px 50px" font-family = "sans-serif" font-size = "11px" font-weight = "400" line-height = "16px"  color= "grey">
+      You are receiving this email advertisement because you registered with DOGO. (2, Television Centre, 101 Wood Lane, London) and agreed to receive emails from us regarding new features, events and updates.
+      </mj-text>
+      <mj-text align = "center"  padding = "10px 20px 30px 20px" font-family = "sans-serif" font-size = "11px" font-weight = "400" line-height = "16px"  color= "grey">
+        &copy; DOGO., All Rights Reserved.
+      </mj-text>
       </mj-column>
     </mj-section>
-     <mj-section background-color="#f4dedf">
-      <mj-column>
-         <mj-text font-family="Proxima, sans-serif"  padding="0 100px" font-weight ="400" font-size="16px" align="center" color="#666666" line-height="24px" >Loreum ipsum dolor sit amet, consectetur <a href="#">Go</a></mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-raw>
-      <!-- Body -->
-    </mj-raw>
-    <mj-section background-color="#d3e9f1" padding="0px">
-      <mj-column width="600px">
-        <mj-image width= "300px" padding = "0px" src="https://web-assets.sugru.com/asset/upload/856/Copy_of_Sugru-by-tesa-logo.png" alt="logo" />
-        <mj-text align="center" color="#333333" font-size = "20px" font-family="brown-pro-bold, Helvetica"><h1>30px BrownPro 40px line height</h1></mj-text>
-        <mj-text align="center" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Proxima nova #333333 16px with 24px line height. <br> Fallback font: Helvetica/Arial</p></mj-text>
-        <mj-button background-color="#cf0000" border-radius="40px" inner-padding="0 10px" height="50px" width="160px" font-size="18px" color="#ffffff">CTA title</mj-button>
-      </mj-column>
-    </mj-section>
-    <mj-hero height="400px" background-color="#333333">
-    </mj-hero>
-    <mj-raw>   <!-- section A -->
-    </mj-raw>
-     <mj-section background-color="#f1f1f1" padding="0px">
-      <mj-column width="600px">
-        <mj-text align="center" color="#333333" font-size = "20px" font-family="brown-pro-bold, Helvetica"><h1>Headline goes here</h1></mj-text>
-        <mj-text align="center" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus.
-          Sed eget nulla elit. Nulla aliquet mollis faucibus</p></mj-text>
-        <mj-button background-color="#cf0000" border-radius="40px" inner-padding="0 10px" height="50px" width="160px"  padding ="30px 0" font-size="18px" color="#ffffff">CTA title</mj-button>
-         <mj-divider border-width="2px" border-style="solid" border-color="lightgrey" padding-bottom="20px" />
-      </mj-column>
-    </mj-section> 
+    
   </mj-body>
 </mjml>
+
+ 
