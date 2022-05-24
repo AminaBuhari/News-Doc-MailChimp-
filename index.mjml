@@ -8,10 +8,6 @@
         </mj-attributes>
         <mj-style inline="inline">
         
-        button {
-            text-decoration: none;
-            
-        }
         em {
           font-weight : 700 !important;
           
@@ -22,7 +18,7 @@
         }
         a {
             font-weight: 700 !important;
-            text-decoration: underline !important;
+            text-decoration: none !important;
             color: #333333;
         }
         </mj-style>
@@ -50,7 +46,11 @@
         <mj-text  color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Hi John, </p></mj-text>
         <mj-text  padding= "1px 20px 40px 20px" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px">Your donation to DOGO was due on Febuary 27th, 2022. We're currently having issues processing your payment towards<em> Febuary Donation.</em> Please Update your billing information. 
        </mj-text>
-        <mj-button background-color="darkgreen" padding = "0 0 30px 0" border-radius="4px" inner-padding="5px 10px"  text-decoration="none" href="https://buy.stripe.com/test_aEUcNc6015RMfaUbII"  height="30px" width="160px" font-size="15px" color="#ffffff">Pay Now</mj-button>
+       
+      </mj-column>
+      <mj-column width="380px">
+       <mj-button background-color="darkgreen" padding = "0 0 30px 0" border-radius="4px" inner-padding="5px 10px"  text-decoration="none" href="https://buy.stripe.com/test_aEUcNc6015RMfaUbII"  height="30px" width="160px" font-size="15px" color="#ffffff">Pay Now</mj-button>
+        
       </mj-column>
       
     </mj-section>
