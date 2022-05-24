@@ -13,11 +13,12 @@
             inner-padding: 10px;
             min-width: 160px;
         }
-        p {
+        em {
           font-weight : 700 !important;
+          
         }
 
-        p {
+        em{
             margin: 0;
         }
         a {
@@ -30,14 +31,28 @@
   <mj-body background-color="white" width = "400px" >
    
 
-    <mj-section padding="0" background-color = "#333333">
-      <mj-column  border = "7px solid #333333" border-radius= "10px" width="380px"  background-color = "white">
-        <mj-image width= "50px" padding = "30px 10px 0 10px " src = "https://i.ibb.co/y8fjhNZ/dogo-logo.png"  alt="logo" />
-        <mj-text align="center" color="#333333" font-size = "15px" font-family="brown-pro-bold, Helvetica"><h1>We’re sorry you’d be leaving us. </h1></mj-text>
+    <mj-section padding="0" background-color = "lightgrey" >
+      <mj-column  border = "7px solid #33333" border-radius= "10px" width="380px"  background-color = "lightgrey">
+        <mj-image width= "40px" align = "left" padding = "10px 10px 20px 10px " src = "https://i.ibb.co/y8fjhNZ/dogo-logo.png"  alt="logo" />
+        
+      </mj-column>
+
+      <mj-column width="380px" background-color = "#333" border-radius = "5px" >
+      
+      <mj-image  padding = "20px 0"width = "50px" src="https://i.ibb.co/jGNq7Q6/2124225-card-essential-app-credit-icon-1.png" alt="" />
+      <mj-text align="center" color="white" font-weight = 500  padding = "0 0 10px 0" font-size = "18px" font-family="Roboto, Helvetica">$5 payment to DOGO was unsucessful</mj-text>
+
+      <mj-image  padding="0" width = "20px" src="https://i.ibb.co/3BPWRNc/406088-card-credit-visa-icon.png" alt="Visa"/>
+      <mj-text align = "center" font-weight = 600 color = "white" padding="0 0px 15px 0" font-size = "12px">
+        3609
+      </mj-text>
+      </mj-column>
+      <mj-column width="380px" background-color = "white">
         <mj-text  color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Hi John, </p></mj-text>
-        <mj-text  padding= "1px 20px 40px 20px" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px">You’ve decided it’s time to leave the community and we’ve cancelled your membership as requested which is effective from <p>Monday April 5th, 2022. </p>It wouldn’t be the same without you and we’d love to have you back. If you decide to join us again, simply download the app and resubscribe.
- </mj-text>
-        <mj-button background-color="darkgreen" border-radius="4px" inner-padding="0 10px" height="50px" width="160px" font-size="18px" color="#ffffff">DOWNLOAD </mj-button>
+        <mj-text  padding= "1px 20px 40px 20px" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px">Your donation to DOGO was due on Febuary 27th, 2022. We're currently having issues processing your payment towards<em> Febuary Donation.</em> Please Update your billing information. 
+       </mj-text>
+        <mj-button background-color="darkgreen" padding = "0 0 30px 0" border-radius="4px" inner-padding="0 10px" height="30px" width="160px" font-size="18px" color="#ffffff">View Invoice</mj-button>
+        
       </mj-column>
       <mj-column width= "400px"> 
       <mj-text   align = "center" padding = "30px 50px 10px 50px" font-family = "sans-serif" font-size = "11px" font-weight = "400" line-height = "16px"  color= "grey">
