@@ -8,10 +8,9 @@
         </mj-attributes>
         <mj-style inline="inline">
         
-        mj-button {
-            height: 50px;
-            inner-padding: 10px;
-            min-width: 160px;
+        button {
+            text-decoration: none;
+            
         }
         em {
           font-weight : 700 !important;
