@@ -28,33 +28,35 @@
         }
         </mj-style>
     </mj-head>
-  <mj-body background-color="white" width = "400px" >
+  <mj-body background-color="white" width = "380px"  >
    
 
-    <mj-section padding="0" background-color = "lightgrey" >
-      <mj-column  border = "7px solid #33333" border-radius= "10px" width="380px"  background-color = "lightgrey">
+    <mj-section padding="0" background-color = "white" border = "2px solid green" >
+      <mj-column   border-radius= "10px" width="380px"  background-color = "white">
         <mj-image width= "40px" align = "left" padding = "10px 10px 20px 10px " src = "https://i.ibb.co/y8fjhNZ/dogo-logo.png"  alt="logo" />
         
       </mj-column>
 
-      <mj-column width="380px" background-color = "#333" border-radius = "5px" >
+      <mj-column width="365px" background-color = "#19702b" border-radius = "5px" >
       
       <mj-image  padding = "20px 0"width = "50px" src="https://i.ibb.co/jGNq7Q6/2124225-card-essential-app-credit-icon-1.png" alt="" />
-      <mj-text align="center" color="white" font-weight = 500  padding = "0 0 10px 0" font-size = "18px" font-family="Roboto, Helvetica">$5 payment to DOGO was unsucessful</mj-text>
+      <mj-text align="center" color="white" font-weight = 00  padding = "0 0 10px 0" font-size = "19px" font-family="Arial, Helvetica">Payment Unsucessful</mj-text>
 
       <mj-image  padding="0" width = "20px" src="https://i.ibb.co/3BPWRNc/406088-card-credit-visa-icon.png" alt="Visa"/>
       <mj-text align = "center" font-weight = 600 color = "white" padding="0 0px 15px 0" font-size = "12px">
         3609
       </mj-text>
       </mj-column>
-      <mj-column width="380px" background-color = "white">
+      <mj-column width="380px" background-color = "white" >
         <mj-text  color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px"><p>Hi John, </p></mj-text>
         <mj-text  padding= "1px 20px 40px 20px" color="#333333" font-size = "16px" font-family="Proxima, Helvetica" line-height="24px">Your donation to DOGO was due on Febuary 27th, 2022. We're currently having issues processing your payment towards<em> Febuary Donation.</em> Please Update your billing information. 
        </mj-text>
-        <mj-button background-color="darkgreen" padding = "0 0 30px 0" border-radius="4px" inner-padding="0 10px" height="30px" width="160px" font-size="18px" color="#ffffff">View Invoice</mj-button>
-        
+        <mj-button background-color="darkgreen" padding = "0 0 30px 0" border-radius="4px" inner-padding="5px 10px"  text-decoration="none" href="https://buy.stripe.com/test_aEUcNc6015RMfaUbII"  height="30px" width="160px" font-size="15px" color="#ffffff">Pay Now</mj-button>
       </mj-column>
-      <mj-column width= "400px"> 
+      
+    </mj-section>
+    <mj-section>
+    <mj-column width= "380px" background-color = "lightgrey">  
       <mj-text   align = "center" padding = "30px 50px 10px 50px" font-family = "sans-serif" font-size = "11px" font-weight = "400" line-height = "16px"  color= "grey">
       You are receiving this email advertisement because you registered with DOGO. (2, Television Centre, 101 Wood Lane, London) and agreed to receive emails from us regarding new features, events and updates.
       </mj-text>
@@ -62,6 +64,7 @@
         &copy; DOGO., All Rights Reserved.
       </mj-text>
       </mj-column>
+      
     </mj-section>
     
   </mj-body>
